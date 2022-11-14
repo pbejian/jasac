@@ -1,0 +1,13 @@
+# AptFile
+# Install a package on Heroku using apt-get
+fluidsynth
+
+#http://ftp.de.debian.org/debian/pool/main/f/fluidsynth/libfluidsynth2_2.1.7-1.1_i386.deb
+#http://ftp.us.debian.org/debian/pool/main/f/fluidsynth/libfluidsynth2_2.1.7-1.1_i386.deb
+
+http://mirrors.kernel.org/ubuntu/pool/universe/f/fluidsynth/fluidsynth_2.2.5-1_amd64.deb
+
+# Add custom repo
+#:repo:deb http://ftp.de.debian.org/debian bullseye main 
+#:repo:deb http://ftp.us.debian.org/debian bullseye main
+#:repo:deb http://ftp.us.debian.org/debian bullseye main
